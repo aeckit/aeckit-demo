@@ -26,6 +26,7 @@ This demonstration is structured as follows:
 ```
 aeckit-demo/
 ├── .aeckit                 # Local active context configuration (e.g., demo/creston-deck)
+├── LICENSE                 # MIT License details
 ├── companies/              # Portfolios and project specifications
 │   └── demo/               # Company portfolio directory
 │       ├── creston-deck/   # Active project directory
@@ -183,3 +184,9 @@ def geocode(project_data: dict) -> dict:
 ```
 
 The `aeckit-cli` dynamically handles the loading, execution, safety backups, and state merging of these components.
+
+---
+
+## 6. License
+
+MIT License — see [LICENSE](LICENSE) for details.
