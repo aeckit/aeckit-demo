@@ -1,0 +1,20 @@
+{
+    "timestamp": "2026-06-03T17:36:52.410323",
+    "project_id": "creston-deck",
+    "analysis_type": "seismic_hazards",
+    "results": {
+        "parameters_used": {
+            "risk_category": "II",
+            "site_class": "D"
+        },
+        "results": {
+            "ss": 1.506,
+            "s1": 0.515,
+            "sds": 1.004,
+            "sd1": null,
+            "sms": 1.506,
+            "sm1": null,
+            "seismic_design_category": null
+        }
+    }
+}

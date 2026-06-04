@@ -1,0 +1,9 @@
+{
+    "get_lat_long": [
+        "geocode.py",
+        "seismic_hazards.py"
+    ],
+    "get_roof_weight": [
+        "roof_weight.py"
+    ]
+}

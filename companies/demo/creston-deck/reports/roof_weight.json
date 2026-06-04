@@ -1,0 +1,10 @@
+{
+    "timestamp": "2026-05-08T19:34:22.708472",
+    "project_id": "creston-deck",
+    "analysis_type": "roof_weight",
+    "results": {
+        "results": {
+            "roof_weight": 20000.0
+        }
+    }
+}

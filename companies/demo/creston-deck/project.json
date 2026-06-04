@@ -1,0 +1,21 @@
+{
+    "id": "DEMO-001",
+    "name": "Creston Deck",
+    "address": "5128 S Creston St, Seattle, WA 98178",
+    "latitude": 47.507081055088,
+    "longitude": -122.269554498639,
+    "metadata": {
+        "seismic": {
+            "ss": 1.506,
+            "s1": 0.515,
+            "sds": 1.004,
+            "sd1": null,
+            "sms": 1.506,
+            "sm1": null,
+            "seismic_design_category": null
+        },
+        "risk_category": "II",
+        "site_class": "D",
+        "roof_weight": 20000.0
+    }
+}
