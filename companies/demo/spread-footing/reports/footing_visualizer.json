@@ -1,0 +1,12 @@
+{
+    "timestamp": "2026-06-17T16:14:22.997693",
+    "project_id": "spread-footing",
+    "analysis_type": "footing_visualizer",
+    "results": {
+        "status": "PASS",
+        "generated_files": [
+            "companies/demo/spread-footing/visualizations/SF-1.viz.json",
+            "companies/demo/spread-footing/visualizations/SF-2.viz.json"
+        ]
+    }
+}

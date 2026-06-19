@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-06-17T16:14:22.992300",
+    "project_id": "spread-footing",
+    "analysis_type": "footing_bearing",
+    "results": {
+        "status": "PASS",
+        "results": {
+            "SF-1": {
+                "status": "PASS",
+                "derived_width_ft": 2.5,
+                "derived_length_ft": 2.5,
+                "thickness_in": 12.0,
+                "max_bearing_pressure_psf": 2114.0,
+                "allowable_bearing_capacity_psf": 3000.0
+            },
+            "SF-2": {
+                "status": "PASS",
+                "derived_width_ft": 3.0,
+                "derived_length_ft": 3.0,
+                "thickness_in": 12.0,
+                "max_bearing_pressure_psf": 2457.8,
+                "allowable_bearing_capacity_psf": 3000.0
+            }
+        }
+    }
+}

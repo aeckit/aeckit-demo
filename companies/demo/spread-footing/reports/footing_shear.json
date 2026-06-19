@@ -1,0 +1,24 @@
+{
+    "timestamp": "2026-06-17T16:14:22.994052",
+    "project_id": "spread-footing",
+    "analysis_type": "footing_shear",
+    "results": {
+        "status": "PASS",
+        "results": {
+            "SF-1": {
+                "status": "PASS",
+                "thickness_in": 12.0,
+                "effective_depth_in": 8.625,
+                "one_way_shear_demand_capacity_ratio": 0.075,
+                "two_way_shear_demand_capacity_ratio": 0.128
+            },
+            "SF-2": {
+                "status": "PASS",
+                "thickness_in": 12.0,
+                "effective_depth_in": 8.625,
+                "one_way_shear_demand_capacity_ratio": 0.154,
+                "two_way_shear_demand_capacity_ratio": 0.225
+            }
+        }
+    }
+}

@@ -13,9 +13,7 @@ def roof_weight(project_data: dict) -> dict:
         "results": {
             "roof_weight": weight
         },
-        "building_updates": {
-            "metadata": {
-                "roof_weight": weight
-            }
+        "project_updates": {
+            "roof_weight": weight
         }
     }

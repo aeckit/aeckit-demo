@@ -11,10 +11,9 @@ def seismic_hazards(project_data: dict) -> dict:
     if not lat or not lng:
         return {"error": "Missing 'latitude' or 'longitude' in project data. Run geocode first."}
 
-    # Metadata-driven engineering parameters (with defaults)
-    metadata = project_data.get("metadata") or {}
-    risk_cat = metadata.get("risk_category", "II")
-    site_class = metadata.get("site_class", "D")
+    # Engineering parameters directly from project data (with defaults)
+    risk_cat = project_data.get("risk_category", "II")
+    site_class = project_data.get("site_class", "D")
     
     base_url = "https://earthquake.usgs.gov/ws/designmaps/asce7-16.json"
     params = {
@@ -58,11 +57,9 @@ def seismic_hazards(project_data: dict) -> dict:
             "site_class": site_class
         },
         "results": seismic_factors,
-        "building_updates": {
-            "metadata": {
-                "seismic": seismic_factors,
-                "risk_category": risk_cat,
-                "site_class": site_class
-            }
+        "project_updates": {
+            "seismic": seismic_factors,
+            "risk_category": risk_cat,
+            "site_class": site_class
         }
     }

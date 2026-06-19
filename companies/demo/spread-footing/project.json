@@ -1,0 +1,101 @@
+{
+    "id": "DEMO-SF-001",
+    "name": "Spread Footing Module",
+    "foundations": {
+        "spread_footings": {
+            "materials": {
+                "concrete_strength_psi": 3000.0,
+                "steel_yield_strength_psi": 60000.0,
+                "concrete_cover_in": 3.0
+            },
+            "geotechnical": {
+                "allowable_bearing_capacity_psf": 3000.0,
+                "soil_unit_weight_pcf": 120.0
+            },
+            "design_constraints": {
+                "minimum_width_ft": 1.5,
+                "minimum_thickness_in": 12.0,
+                "target_aspect_ratio": 1.0,
+                "sizing_increment_ft": 0.5
+            },
+            "instances": {
+                "SF-1": {
+                    "dimensions": {
+                        "footing_depth_ft": 3.0,
+                        "column_width_in": 5.5,
+                        "column_length_in": 5.5,
+                        "width_ft": 2.5,
+                        "length_ft": 2.5,
+                        "thickness_in": 12.0
+                    },
+                    "loads": {
+                        "dead_kips": 4.5,
+                        "live_kips": 2.5,
+                        "wind_down_kips": 3.0,
+                        "wind_up_kips": -2.5,
+                        "seismic_down_kips": 1.5,
+                        "seismic_up_kips": -1.0
+                    },
+                    "reinforcement": {
+                        "long_direction": {
+                            "bar_size": 4,
+                            "bar_count": 4,
+                            "spacing_in": 7.83,
+                            "area_provided_sq_in": 0.8,
+                            "development_length_in": 10.95,
+                            "available_development_length_in": 9.25,
+                            "development_length_status": "FAIL (Hook too long)"
+                        },
+                        "short_direction": {
+                            "bar_size": 4,
+                            "bar_count": 4,
+                            "spacing_in": 7.83,
+                            "area_provided_sq_in": 0.8,
+                            "development_length_in": 10.95,
+                            "available_development_length_in": 9.25,
+                            "development_length_status": "FAIL (Hook too long)"
+                        }
+                    }
+                },
+                "SF-2": {
+                    "dimensions": {
+                        "footing_depth_ft": 4.0,
+                        "column_width_in": 5.5,
+                        "column_length_in": 5.5,
+                        "width_ft": 3.0,
+                        "length_ft": 3.0,
+                        "thickness_in": 12.0
+                    },
+                    "loads": {
+                        "dead_kips": 8.0,
+                        "live_kips": 4.0,
+                        "wind_down_kips": 6.5,
+                        "wind_up_kips": -5.0,
+                        "seismic_down_kips": 2.5,
+                        "seismic_up_kips": -2.0
+                    },
+                    "reinforcement": {
+                        "long_direction": {
+                            "bar_size": 4,
+                            "bar_count": 4,
+                            "spacing_in": 9.83,
+                            "area_provided_sq_in": 0.8,
+                            "development_length_in": 10.95,
+                            "available_development_length_in": 12.25,
+                            "development_length_status": "PASS (90-deg hook typical)"
+                        },
+                        "short_direction": {
+                            "bar_size": 4,
+                            "bar_count": 4,
+                            "spacing_in": 9.83,
+                            "area_provided_sq_in": 0.8,
+                            "development_length_in": 10.95,
+                            "available_development_length_in": 12.25,
+                            "development_length_status": "PASS (90-deg hook typical)"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

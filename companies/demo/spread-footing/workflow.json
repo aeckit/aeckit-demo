@@ -1,0 +1,8 @@
+{
+    "design_footing": [
+        "design/footing_bearing.py",
+        "design/footing_shear.py",
+        "design/footing_reinforcement.py",
+        "visualization/footing_visualizer.py"
+    ]
+}
